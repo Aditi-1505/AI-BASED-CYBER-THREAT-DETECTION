@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Threat Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔐 AI-Based Threat Detection</h1>
+      <p>Check if a URL or Email is malicious using AI</p>
+    </header>
+
+    <!-- URL Threat Detection Form -->
+    <section class="form-section">
+      <h2>🌐 URL Threat Detection</h2>
+      <form id="urlForm">
+        <input type="url" id="urlInput" placeholder="Enter a URL to scan..." required />
+        <button type="submit">Check URL</button>
+      </form>
+      <div id="urlResult" class="result-box"></div>
+    </section>
+
+    <!-- Email Threat Detection Form -->
+    <section class="form-section">
+      <h2>📧 Email Threat Detection</h2>
+      <form id="emailForm">
+        <textarea id="emailInput" rows="6" placeholder="Paste suspicious email content here..." required></textarea>
+        <button type="submit">Check Email</button>
+      </form>
+      <div id="emailResult" class="result-box"></div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 | AI Threat Detection Project</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
